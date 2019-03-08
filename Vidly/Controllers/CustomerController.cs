@@ -1,20 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
-using Vidly.ViewModel;
 using Vidly.Models;
+using System.Data.Entity;
 namespace Vidly.Controllers
 {
     [RoutePrefix("Customer")]
     [Route("{action=Index}")]
     public class CustomerController : Controller
     {
+        private BlogDbContext _context;
+
+        public CustomerController()
+        {
+            _context = new BlogDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
         // GET: Customer
         public ActionResult Index()
         {
-            var customers = GetCustomers();
+            var customers = _context.Customers.Include(c => c.MembershipType);
 
             return View(customers);
         }
@@ -22,7 +30,7 @@ namespace Vidly.Controllers
         [Route("Details/{id}")]
         public ActionResult Details(int Id)
         {
-            var customer = GetCustomers().SingleOrDefault(c => c.Id == Id);
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == Id);
 
             if(customer == null)
             {
@@ -34,13 +42,6 @@ namespace Vidly.Controllers
             }
         }
 
-        private IEnumerable<Customer> GetCustomers()
-        {
-            return new List<Customer>
-            {
-                new Customer {Id=1, Name ="Monika Patel"},
-                new Customer {Id=2, Name ="Hiren Patel"}
-            };
-        }
+        
     }
 }

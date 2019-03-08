@@ -78,3 +78,16 @@ C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vi
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\EntityFramework.dll
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\EntityFramework.SqlServer.dll
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\EntityFramework.xml
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\bin\EntityFramework.SqlServer.xml
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialMigrations.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedIsSubscribedToCustomer.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipType.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyedAnnotationsToCustomerName.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateCustomers.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateNameToMembershipType.resources

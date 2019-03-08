@@ -11,12 +11,26 @@
 }
 else
 {
-    <ul>
+    <table  border="1" >
+        <tr>
+            <th>Name</th>
+            <th>Discount</th>
+            <th>Membership Type</th>
+        </tr>
         @foreach (var customer in Model)
         {
-           
-        <li> @Html.ActionLink(customer.Name, "Details", "Customer", new { id = customer.Id }, null)</li>
-
+        <tr>
+            <td>
+                @Html.ActionLink(customer.Name, "Details", "Customer", new { id = customer.Id }, null)
+            </td>
+            <td>
+                @customer.MembershipType.Discount%
+            </td>
+            <td>
+                @customer.MembershipType.Name
+            </td>
+        </tr>
         }
-    </ul>
+    </table>
+    
 }
