@@ -182,9 +182,38 @@
     <Compile Include="Migrations\201903080245181_ApplyannotationToCustomerDOB.Designer.cs">
       <DependentUpon>201903080245181_ApplyannotationToCustomerDOB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903080254154_PopulateGenre.cs" />
+    <Compile Include="Migrations\201903080254154_PopulateGenre.Designer.cs">
+      <DependentUpon>201903080254154_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080257292_AddGenre.cs" />
+    <Compile Include="Migrations\201903080257292_AddGenre.Designer.cs">
+      <DependentUpon>201903080257292_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080301444_AddGenre1.cs" />
+    <Compile Include="Migrations\201903080301444_AddGenre1.Designer.cs">
+      <DependentUpon>201903080301444_AddGenre1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080305282_AddGenreTable.cs" />
+    <Compile Include="Migrations\201903080305282_AddGenreTable.Designer.cs">
+      <DependentUpon>201903080305282_AddGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080312556_AddMoive.cs" />
+    <Compile Include="Migrations\201903080312556_AddMoive.Designer.cs">
+      <DependentUpon>201903080312556_AddMoive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080314512_PopulateMovieGenre.cs" />
+    <Compile Include="Migrations\201903080314512_PopulateMovieGenre.Designer.cs">
+      <DependentUpon>201903080314512_PopulateMovieGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080323329_PopulateMoives.cs" />
+    <Compile Include="Migrations\201903080323329_PopulateMoives.Designer.cs">
+      <DependentUpon>201903080323329_PopulateMoives.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BlogDbContext.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -233,6 +262,7 @@
     <Content Include="Views\Movie\Index.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
+    <Content Include="Views\Movie\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -283,6 +313,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903080245181_ApplyannotationToCustomerDOB.resx">
       <DependentUpon>201903080245181_ApplyannotationToCustomerDOB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080254154_PopulateGenre.resx">
+      <DependentUpon>201903080254154_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080257292_AddGenre.resx">
+      <DependentUpon>201903080257292_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080301444_AddGenre1.resx">
+      <DependentUpon>201903080301444_AddGenre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080305282_AddGenreTable.resx">
+      <DependentUpon>201903080305282_AddGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080312556_AddMoive.resx">
+      <DependentUpon>201903080312556_AddMoive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080314512_PopulateMovieGenre.resx">
+      <DependentUpon>201903080314512_PopulateMovieGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080323329_PopulateMoives.resx">
+      <DependentUpon>201903080323329_PopulateMoives.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

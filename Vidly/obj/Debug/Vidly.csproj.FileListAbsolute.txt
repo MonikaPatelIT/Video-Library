@@ -94,3 +94,10 @@ C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vi
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDOBtoCustomer.resources
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateDOBToCustomers.resources
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyannotationToCustomerDOB.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenre.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenre.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenre1.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenreTable.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMoive.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMovieGenre.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMoives.resources

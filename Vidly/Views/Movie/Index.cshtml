@@ -12,11 +12,28 @@
 }
 else
 {
-    <ul>
+    <table border="1">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Genre
+            </th>
+        </tr>
         @foreach (var movie in Model)
         {
-            <li>@movie.Name</li>
+            <tr>
+                <td>
+                  @Html.ActionLink(movie.Name, "Details","Movie", new { Id = movie.Id}, null)
+                </td>
+                <td>
+                    @movie.Genre.Type
+                </td>
+            </tr>
+            
 
         }
-    </ul>
+    </table>
+   
 }

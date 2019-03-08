@@ -9,5 +9,6 @@ namespace Vidly.Models
     public class BlogDbContext:DbContext
     {
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Movie> Movies { get; set; }
     }
 }
