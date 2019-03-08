@@ -170,6 +170,18 @@
     <Compile Include="Migrations\201903080113184_PopulateNameToMembershipType.Designer.cs">
       <DependentUpon>201903080113184_PopulateNameToMembershipType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201903080214120_AddDOBtoCustomer.cs" />
+    <Compile Include="Migrations\201903080214120_AddDOBtoCustomer.Designer.cs">
+      <DependentUpon>201903080214120_AddDOBtoCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080215154_UpdateDOBToCustomers.cs" />
+    <Compile Include="Migrations\201903080215154_UpdateDOBToCustomers.Designer.cs">
+      <DependentUpon>201903080215154_UpdateDOBToCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201903080245181_ApplyannotationToCustomerDOB.cs" />
+    <Compile Include="Migrations\201903080245181_ApplyannotationToCustomerDOB.Designer.cs">
+      <DependentUpon>201903080245181_ApplyannotationToCustomerDOB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BlogDbContext.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -262,6 +274,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201903080113184_PopulateNameToMembershipType.resx">
       <DependentUpon>201903080113184_PopulateNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080214120_AddDOBtoCustomer.resx">
+      <DependentUpon>201903080214120_AddDOBtoCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080215154_UpdateDOBToCustomers.resx">
+      <DependentUpon>201903080215154_UpdateDOBToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201903080245181_ApplyannotationToCustomerDOB.resx">
+      <DependentUpon>201903080245181_ApplyannotationToCustomerDOB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

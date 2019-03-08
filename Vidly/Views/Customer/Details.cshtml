@@ -5,4 +5,13 @@
 }
 
 <h2>Customer Details</h2>
-<p>@Model.Name</p>
+<h3>@Model.Name</h3>
+<ul>
+    <li>Mebership Type : @Model.MembershipType.Name</li>
+    @if (Model.DOB != "")
+    {
+        <li>Date of Birth : @Model.DOB</li>
+    }
+
+
+</ul>

@@ -91,3 +91,6 @@ C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vi
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateCustomers.resources
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateNameToMembershipType.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDOBtoCustomer.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateDOBToCustomers.resources
+C:\Users\JANAPATH\Documents\Visual Studio 2017\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyannotationToCustomerDOB.resources
