@@ -35,8 +35,8 @@ namespace Vidly.Migrations
         
         public override void Down()
         {
-            DropForeignKey("dbo.Movies", "Genre_Id", "dbo.Genres");
-            DropIndex("dbo.Movies", new[] { "Genre_Id" });
+            DropForeignKey("dbo.Movies", "GenreTypeId", "dbo.Genres");
+            DropIndex("dbo.Movies", new[] { "GenreTypeId" });
             DropTable("dbo.Genres");
             DropTable("dbo.Movies");
         }

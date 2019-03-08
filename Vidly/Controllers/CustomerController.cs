@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using Vidly.Models;
 using System.Data.Entity;
+using Vidly.ViewModel;
 namespace Vidly.Controllers
 {
     [RoutePrefix("Customer")]
@@ -42,6 +43,51 @@ namespace Vidly.Controllers
             }
         }
 
-        
+        public ActionResult CustomerForm()
+        {
+            var mebershipTypes = _context.MembershipType.ToList();
+            var customerView = new CustomerViewModel
+            {
+                MembershipTypes = mebershipTypes
+            };
+            return View("CustomerForm", customerView);
+        }
+        [HttpPost]
+        public ActionResult Save(Customer customer)
+        {
+            if(customer.Id== 0)
+            {
+                _context.Customers.Add(customer); //simply create new
+            }
+            else
+            {
+                var customerDB = _context.Customers.Single(c => c.Id == customer.Id);
+                customerDB.Name = customer.Name;
+                customerDB.DOB = customer.DOB;
+                customerDB.MembershipTypeId = customer.MembershipTypeId;
+                customerDB.IsSubscribeToNewsletter = customer.IsSubscribeToNewsletter;
+
+            }
+            
+            _context.SaveChanges();
+            return RedirectToAction("Index", "Customer");
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
+
+            if (customer == null)
+            {
+                return HttpNotFound();
+            }
+            var editCustomer = new CustomerViewModel
+            {
+                Customer = customer,
+                MembershipTypes = _context.MembershipType.ToList()
+            };
+            return View("CustomerForm", editCustomer);
+        }
+              
     }
 }
